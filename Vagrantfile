@@ -93,6 +93,3 @@ config.vm.define "server1" do |server1|
    server1.vm.provision :shell, :inline => "reboot", run: "always"
 end
 end
-
-
-
